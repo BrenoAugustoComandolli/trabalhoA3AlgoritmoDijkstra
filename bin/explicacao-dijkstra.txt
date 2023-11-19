@@ -1,0 +1,27 @@
+Distancia
+
+A: 0,0
+B: 5,0
+C: 2,0
+D: 3,0
+E: 6,0
+F: 9,0
+G: 17,0
+
+Predecessores:
+
+A: null
+B: A
+C: A
+D: C
+E: C
+F: C
+G: F
+
+Prioridade:
+
+A (Origem primeiro) => Começa por ele.
+Sempre o menor caminho vem primeiro
+
+
+
