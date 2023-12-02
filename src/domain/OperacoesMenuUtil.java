@@ -11,7 +11,7 @@ public class OperacoesMenuUtil {
 	private OperacoesMenuUtil() {}
 
 	public static void preencheVerticesVindosArquivo() {
-		List<String> conteudoArq = LeitorArquivoUtil.lerArquivo("src/distancias.txt");
+		List<String> conteudoArq = LeitorArquivoUtil.lerArquivo("src/conteudo.txt");
 		LogicaDijkstraUtil.adicionaConexoes(conteudoArq);
 		
 		if(LogicaDijkstraUtil.getVertices().isEmpty()) {
